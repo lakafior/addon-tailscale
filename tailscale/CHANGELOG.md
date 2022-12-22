@@ -1,5 +1,9 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 0.0.8
+
+- Nginx fix
+
 ## 0.0.7
 
 - Update tailscale to 1.35.89

@@ -12,7 +12,5 @@ server {
 
         sub_filter_once off;
         sub_filter 'document.location.href = url' 'window.open(url, "_blank").focus()';
-		resolver 1.1.1.1 1.0.0.1 ipv6=off valid=300s;
-		resolver_timeout 10s;
     }
 }
