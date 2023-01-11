@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/base/amd64:13.0.0
+ARG BUILD_FROM=ghcr.io/hassio-addons/base/amd64:13.0.1
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -25,7 +25,7 @@ RUN \
     && if [ "${BUILD_ARCH}" = "i386" ]; then ARCH="386"; fi \
     \
     && curl -L -s \
-        "https://pkgs.tailscale.com/unstable/tailscale_1.35.99_${ARCH}.tgz" \
+        "https://pkgs.tailscale.com/unstable/tailscale_1.35.126_${ARCH}.tgz" \
         | tar zxvf - -C /opt/ --strip-components 1 \
     \
     && rm -f -r \

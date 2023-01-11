@@ -1,5 +1,10 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 0.0.10
+
+- Update tailscale to 1.35.126
+- Update base addon to 13.0.1
+
 ## 0.0.9
 
 - Update tailscale to 1.35.99
