@@ -2,6 +2,11 @@
 
 ## 0.0.10
 
+- Update tailscale to 1.37.20
+- Update base addon to 13.1.1
+
+## 0.0.10
+
 - Update tailscale to 1.35.126
 - Update base addon to 13.0.1
 
